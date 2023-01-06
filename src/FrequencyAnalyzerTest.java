@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class FrequencyAnalyzerTest {
 
-    FrequencyAnalyzer frequencyAnalyzer = new FrequencyAnalyzer();
+    FrequencyAnalyzerV2 frequencyAnalyzer = new FrequencyAnalyzerV2();
 
     @Test
     void should_return_1_for_single_character() {
